@@ -1,9 +1,5 @@
 # Born2beroot
 ---
-cssclasses: justify-text
----
-
----
 
 # Setting Up
 
