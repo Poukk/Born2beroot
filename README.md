@@ -184,7 +184,7 @@ To facilitate further steps, you can connect through SSH in your host machine.
 		hostname -I
 		```
 2. **Connect**
-	- On you local machine, run:
+	- On your local machine, run:
 		```bash
 		ssh [login]@[server_ip] -p 4242
 		```
