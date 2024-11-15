@@ -1,5 +1,4 @@
 # Born2beroot
----
 
 # Setting Up
 
@@ -68,6 +67,7 @@
      # Enable logging of both input and output
      Defaults        log_input,log_output
      Defaults        iolog_dir="/var/log/sudo"
+     Defaults        logfile=/var/log/sudo/sudo.log
      
      # Enable TTY
      Defaults        requiretty
@@ -300,7 +300,7 @@ To facilitate further steps, you can connect through SSH in your host machine.
 	sudo passwd [user]
 	```
 
-- Creting group
+- Creating group
 	```bash
 	sudo groupadd [group]
 	```
