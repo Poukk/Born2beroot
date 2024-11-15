@@ -55,7 +55,7 @@
      sudo visudo -f /etc/sudoers.d/sudoconfig
      ```
 
-   - Add this line to the file:
+   - Add these lines to the file:
 
      ```bash
      # Limit authentication attempts to 3
